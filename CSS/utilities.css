@@ -1,0 +1,44 @@
+.flex {
+  display: flex;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+.b {
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  background: aqua;
+  color: black;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.b:hover {
+  border-color: aqua;
+  background: black;
+  color: aqua;
+}
+.bt {
+  background: aqua;
+  color: black;
+}
+.bp {
+  border-color: aqua;
+  color: aqua;
+  background: black;
+  transition: all 0.3s ease;
+}
+.bp:hover {
+  background: aqua;
+  color: black;
+}
+.flex1 {
+  flex: 1;
+}
