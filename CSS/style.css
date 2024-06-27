@@ -9,6 +9,7 @@
 }
 body {
   font-family: "Poppins", "sans-serif";
+  height: 8000px;
 }
 * {
   padding: 0;
@@ -104,4 +105,254 @@ section.About .social img {
   width: 100%;
   height: 100%;
   padding: 0.5rem;
+}
+.section-heading {
+  color: black;
+  text-align: center;
+  margin-bottom: 1rem;
+  line-height: 0.5;
+}
+.section-heading span {
+  color: aqua;
+}
+.section-heading + p {
+  color: #898989;
+  font-family: "Lato", sans-serif;
+  line-height: 1.8;
+  margin-bottom: 8rem;
+  text-align: center;
+}
+
+section.Services {
+  background: lightgray;
+}
+section.Services .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 6rem;
+}
+section.Services .cards .card {
+  background: white;
+  padding: 3rem 2rem;
+  position: relative;
+  padding: 4.5rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+section.Services .cards .card img {
+  position: absolute;
+  top: -3.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+section.Services .cards .card h2 {
+  font-weight: 510;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+section.Services .cards .card p {
+  font-family: "Lato", sans-serif;
+  color: #898989;
+  line-height: 1.6;
+}
+section.Services .cards .card:hover {
+  background: black;
+}
+section.Services .cards .card:hover h2,
+section.Services .cards .card:hover p {
+  color: white;
+}
+section.freelancer {
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../Imagess/camera.png);
+  color: white;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 80%, 0 100%);
+  padding-bottom: 14rem;
+}
+section.freelancer h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+section.freelancer p {
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+  font-family: "Lato", sans-serif;
+}
+section.reviews .slider .slide img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+section.reviews .slider .slide {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 6rem;
+}
+section.reviews .slider .slide p {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1rem;
+  color: #898989;
+}
+section.reviews .slider-dots .dots {
+  list-style-type: none;
+  display: flex !important;
+  justify-content: center;
+}
+section.reviews .slider-dots {
+  margin-top: 3rem;
+}
+
+section.reviews .slider-dots button {
+  font-size: 0;
+  width: 25px;
+  height: 10px;
+  margin-right: 0.3rem;
+  border: none;
+  outline: none;
+  background: var(--ternary);
+  border-radius: 50px;
+  cursor: pointer;
+}
+section.reviews .dots li.slick-active button {
+  background: var(--primary);
+  width: 40px;
+}
+section.projects {
+  background: var(--light);
+}
+section.projects .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px; /* Gap between grid items */
+  padding: 120px;
+  padding-top: 10px;
+}
+section.projects .card-wrapper .card {
+  position: relative;
+  height: 250px;
+  margin-top: 20px;
+}
+section.projects .card-wrapper .card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(61, 207, 211, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--light);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+section.projects .card-wrapper .card:hover .overlay {
+  opacity: 1;
+}
+
+section.projects .card-wrapper .card .overlay a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+section.projects .card-wrapper .card img {
+  height: 100%;
+  width: 100%;
+}
+section.Acheivements {
+  background: black;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
+  padding-bottom: 10rem;
+}
+section.Acheivements .section-heading {
+  color: white;
+}
+section.Acheivements .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  padding: 120px;
+}
+section.Acheivements .card-wrapper .card {
+  background: white;
+}
+section.Acheivements .card-wrapper .card .img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-right: 150px;
+}
+section.Acheivements .card-wrapper .card .card-content {
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+section.Acheivements .card-wrapper .card .card-content h1 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+section.Acheivements .card-wrapper .card .card-content p {
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1rem;
+  color: #898989;
+  margin-top: 1rem;
+}
+section.contact .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+section.contact .card-wrapper .card {
+  text-align: center;
+}
+section.contact .card-wrapper .card img {
+  margin-bottom: 3rem;
+}
+section.contact .card-wrapper .card h1 {
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+section.contact .card-wrapper .card h6 {
+  font-size: 1rem;
+  color: var(--ternary);
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+section.contact .input-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  margin-bottom: 2rem;
+}
+section.contact .input-wrap-2 {
+  display: flex;
+  flex-direction: column;
+}
+section.contact .input-wrap-2 input {
+  margin-bottom: 2rem;
+}
+section.contact input {
+  padding: 0.5rem;
+  border: 1px solid var(--light);
+  font-size: 0.9rem;
+}
+section.contact .input-wrap-2 textarea {
+  padding: 0.5rem;
+  border: 1px solid var(--light);
+  font-size: 0.9rem;
+}
+section.contact .input-wrap-2 textarea:focus,
+section.contact input:focus {
+  outline: none;
+}
+section.contact .btn-wrapper {
+  text-align: center;
+  margin-top: 2rem;
 }
