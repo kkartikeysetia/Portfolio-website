@@ -17,238 +17,274 @@
     />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <nav class="flex items-center justify-between">
-          <div class="left flex items-center">
-            <div class="branding">
-              <img src="./Imagess/logo.svg" alt="" />
+    <div class="site-main-wrapper">
+      <button class="hamberger">
+        <img src="./Imagess/HAMBERGER.jpg">
+      </button>
+      <div class="mobile-nav">
+        <button class="times"><img src="./Imagess/times.svg" </button>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Education</a></li>
+        </ul>
+      </div>
+
+      <header>
+        <div class="container">
+          <nav id="main-nav" class="flex items-center justify-between">
+            <div class="left flex items-center">
+              <div class="branding">
+                <img src="./Imagess/logo.svg" alt="" />
+              </div>
+              <div>
+                <a href="#">Home</a>
+                <a href="#About">About</a>
+                <a href="#Services">Skills</a>
+                <a href="#reviews">Education</a>
+              </div>
             </div>
-            <div>
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Skills</a>
-              <a href="#">Education</a>
+            <div class="right">
+              <button class="b bt">Contact</button>
+            </div>
+          </nav>
+          <div class="intro flex items-center justify-between">
+            <div class="left flex1">
+              <img src="./Imagess/picture.jpg" alt="" />
+            </div>
+            <div class="right flex1">
+              <h6>Kartikey Setia</h6>
+              <h1>I am a Creative <span>Web Developer </span></h1>
+              <p>
+                I am 3rd year BTech Computer Science student studying in Bennett
+                University.
+              </p>
+              <div>
+                <button class="b bp">DOWNLOAD RESUME</button>
+              </div>
             </div>
           </div>
-          <div class="right">
-            <button class="b bt">Contact</button>
+        </div>
+      </header>
+      <section id="About" class="About">
+        <div class="container flex items-center about-inner-wrap">
+          <div class="flex1">
+            <img class="About-img" src="./Imagess/man-2.png" alt="" />
           </div>
-        </nav>
-        <div class="intro flex items-center justify-between">
-          <div class="left flex1">
-            <img src="./Imagess/picture.jpg" alt="" />
-          </div>
-          <div class="right flex1">
-            <h6>Kartikey Setia</h6>
-            <h1>I am a Creative <span>Web Developer </span></h1>
+          <div class="flex1 right">
+            <h1>About <span>Me</span></h1>
+            <h2>Hello World</h2>
             <p>
               I am 3rd year BTech Computer Science student studying in Bennett
-              University.
+              University. My interest are web development & Backend.
             </p>
-            <div>
-              <button class="b bp">DOWNLOAD RESUME</button>
+            <div class="social">
+              <a href="#"><img src="./Imagess/website.svg" alt="" /></a>
+              <a href="#"><img src="./Imagess/instagram.svg" alt="" /></a>
+              <a href="#"><img src="./Imagess/twitter.svg" alt="" /></a>
+              <a href="#"><img src="./Imagess/instagram.svg" alt="" /></a>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-    <section class="About">
-      <div class="container flex items-center">
-        <div class="flex1">
-          <img class="About-img" src="./Imagess/man-2.png" alt="" />
-        </div>
-        <div class="flex1">
-          <h1>About <span>Me</span></h1>
-          <h2>Hello World</h2>
-          <p>
-            I am 3rd year BTech Computer Science student studying in Bennett
-            University. My interest are web development & Backend.
-          </p>
-          <div class="social">
-            <a href="#"><img src="./Imagess/website.svg" alt="" /></a>
-            <a href="#"><img src="./Imagess/instagram.svg" alt="" /></a>
-            <a href="#"><img src="./Imagess/twitter.svg" alt="" /></a>
-            <a href="#"><img src="./Imagess/instagram.svg" alt="" /></a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="Services">
-      <div class="container">
-        <h1 class="section-heading"><span>Our </span>Servies</h1>
-        <p>hmaari servies yaha hai sjkkcbksbvbs</p>
-        <div class="cards">
-          <div class="card">
-            <img src="./Imagess/brush.svg" alt="" />
-            <h2>Graphic design</h2>
-            <p>tell about this field in detail</p>
-          </div>
-          <div class="card">
-            <img src="./Imagess/brush.svg" alt="" />
-            <h2>Graphic design</h2>
-            <p>tell about this field in detail</p>
-          </div>
-          <div class="card">
-            <img src="./Imagess/brush.svg" alt="" />
-            <h2>Graphic design</h2>
-            <p>tell about this field in detail</p>
-          </div>
-          <div class="card">
-            <img src="./Imagess/brush.svg" alt="" />
-            <h2>Graphic design</h2>
-            <p>tell about this field in detail</p>
-          </div>
-          <div class="card">
-            <img src="./Imagess/brush.svg" alt="" />
-            <h2>Graphic design</h2>
-            <p>tell about this field in detail</p>
-          </div>
-          <div class="card">
-            <img src="./Imagess/brush.svg" alt="" />
-            <h2>Graphic design</h2>
-            <p>tell about this field in detail</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="freelancer">
-      <h1>I am avaible for free lancer</h1>
-      <p>we provide high standard clean website for your business</p>
-      <button class="b bp">Download cv</button>
-    </section>
-    <section class="reviews">
-      <div class="container">
-        <h1 class="section-heading"><span>Our</span> Client</h1>
-        <p>these are my education</p>
-      </div>
-      <div class="slider">
-        <div class="slide">
-          <img src="./Imagess/lady.png" />
-          <p>college eduaction kaha sai kari kya kari all details</p>
-          <span>grade scored</span>
-        </div>
-        <div class="slide">
-          <img src="./Imagess/lady.png" />
-          <p>12 eduaction kaha sai kari kya kari all details</p>
-          <span>grade scored</span>
-        </div>
-        <div class="slide">
-          <img src="./Imagess/lady.png" />
-          <p>10 eduaction kaha sai kari kya kari all details</p>
-          <span>grade scored</span>
-        </div>
-      </div>
-        <div class="slider-dots"></div>
-      </div>
-    </section>
-    <section id="projects" class="projects">
-      <div class="container">
-        <h1 class="section-heading"><span>Our </span> Works</h1>
-        <p>These are all my projects </p>
-      </div>
-      <div class="card-wrapper">
-        <div class="card">
-          <div class="overlay">
-            <span>Category</span>
-            <a href="#">Web Development Project</a>
-
-          </div>
-          <img src="./Imagess/ph-1.png">
-        </div>
-        <div class="card">
-          <img src="./Imagess/ph-1.png">
-        </div>
-        <div class="card">
-          <img src="./Imagess/ph-1.png">
-        </div>
-        
-        <div class="card">
-          <img src="./Imagess/ph-1.png">
-        </div>
-        <div class="card">
-          <img src="./Imagess/ph-1.png">
-        </div>
-        <div class="card">
-          <img src="./Imagess/ph-1.png">
-        </div>
-      </div>
-
-      </div>
-    </section>
-    <section class="Acheivements">
-      <div class="container">
-        <h1 class="section-heading"><span>Our</span> Blog</h1>
-        <p>all ieee manganemnt evenst participation & certifications</p>
-      </div>
-      <div class="card-wrapper">
-        <div class="card">
-          <div class="img-wrapper">
-            <img src="./Imagess/article-ph-1.png">
-          </div>
-          <div class="card-content">
-            <a href="#">
-              <h1>Acheivements</h1>
-              <p>write all ieeee kai baree mai details</p>
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="img-wrapper">
-            <img src="./Imagess/article-ph-1.png">
-          </div>
-          <div class="card-content">
-            <a href="#">
-              <h1>certifications</h1>
-              <p>write all ieeee kai baree mai details</p>
-            </a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="img-wrapper">
-            <img src="./Imagess/article-ph-1.png">
-          </div>
-          <div class="card-content">
-            <a href="#">
-              <h1>certifications</h1>
-              <p>write all ieeee kai baree mai details</p>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="contact ">
-      <div class="container">
-        <div class="contact">
-          <h1 class="section-heading">Contact<span> Us</span></h1>
-          <p>details of contact</p>
-          <div class="card-wrapper">
+      </section>
+      <section id="Services" class="Services">
+        <div class="container">
+          <h1 class="section-heading"><span>Our </span>Servies</h1>
+          <p>hmaari servies yaha hai sjkkcbksbvbs</p>
+          <div class="cards">
             <div class="card">
-              <img src="./Imagess/phone-2.svg" alt="">
-              <h1>Call us on</h1>
-              <span>9417767109</span>
+              <img src="./Imagess/brush.svg" alt="" />
+              <h2>Graphic design</h2>
+              <p>tell about this field in detail</p>
             </div>
+            <div class="card">
+              <img src="./Imagess/brush.svg" alt="" />
+              <h2>Graphic design</h2>
+              <p>tell about this field in detail</p>
+            </div>
+            <div class="card">
+              <img src="./Imagess/brush.svg" alt="" />
+              <h2>Graphic design</h2>
+              <p>tell about this field in detail</p>
+            </div>
+            <div class="card">
+              <img src="./Imagess/brush.svg" alt="" />
+              <h2>Graphic design</h2>
+              <p>tell about this field in detail</p>
+            </div>
+            <div class="card">
+              <img src="./Imagess/brush.svg" alt="" />
+              <h2>Graphic design</h2>
+              <p>tell about this field in detail</p>
+            </div>
+            <div class="card">
+              <img src="./Imagess/brush.svg" alt="" />
+              <h2>Graphic design</h2>
+              <p>tell about this field in detail</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="freelancer">
+        <h1>I am avaible for free lancer</h1>
+        <p>we provide high standard clean website for your business</p>
+        <button class="b bp">Download cv</button>
+      </section>
+      <section id="reviews" class="reviews">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span> Client</h1>
+          <p>these are my education</p>
+        </div>
+        <div class="slider">
+          <div class="slide">
+            <img src="./Imagess/lady.png" />
+            <p>college eduaction kaha sai kari kya kari all details</p>
+            <span>grade scored</span>
+          </div>
+          <div class="slide">
+            <img src="./Imagess/lady.png" />
+            <p>12 eduaction kaha sai kari kya kari all details</p>
+            <span>grade scored</span>
+          </div>
+          <div class="slide">
+            <img src="./Imagess/lady.png" />
+            <p>10 eduaction kaha sai kari kya kari all details</p>
+            <span>grade scored</span>
+          </div>
+        </div>
+          <div class="slider-dots"></div>
+        </div>
+      </section>
+      <section id="projects" class="projects">
+        <div class="container">
+          <h1 class="section-heading"><span>Our </span> Works</h1>
+          <p>These are all my projects </p>
+        </div>
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="overlay">
+              <span>Category</span>
+              <a href="#">Web Development Project</a>
+  
+            </div>
+            <img src="./Imagess/ph-1.png">
+          </div>
+          <div class="card">
+            <img src="./Imagess/ph-1.png">
+          </div>
+          <div class="card">
+            <img src="./Imagess/ph-1.png">
+          </div>
+          
+          <div class="card">
+            <img src="./Imagess/ph-1.png">
+          </div>
+          <div class="card">
+            <img src="./Imagess/ph-1.png">
+          </div>
+          <div class="card">
+            <img src="./Imagess/ph-1.png">
+          </div>
+        </div>
+  
+        </div>
+      </section>
+      <section class="Acheivements">
+        <div class="container">
+          <h1 class="section-heading"><span>Our</span> Blog</h1>
+          <p>all ieee manganemnt evenst participation & certifications</p>
+        </div>
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="img-wrapper">
+              <img src="./Imagess/article-ph-1.png">
+            </div>
+            <div class="card-content">
+              <a href="#">
+                <h1>Acheivements</h1>
+                <p>write all ieeee kai baree mai details</p>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-wrapper">
+              <img src="./Imagess/article-ph-1.png">
+            </div>
+            <div class="card-content">
+              <a href="#">
+                <h1>certifications</h1>
+                <p>write all ieeee kai baree mai details</p>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img-wrapper">
+              <img src="./Imagess/article-ph-1.png">
+            </div>
+            <div class="card-content">
+              <a href="#">
+                <h1>certifications</h1>
+                <p>write all ieeee kai baree mai details</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact ">
+        <div class="container">
+          <div class="contact">
+            <h1 class="section-heading">Contact<span> Us</span></h1>
+            <p>details of contact</p>
+            <div class="card-wrapper">
+              <div class="card">
+                <img src="./Imagess/phone-2.svg" alt="">
+                <h1>Call us on</h1>
+                <span>9417767109</span>
+              </div>
+              <div class="card">
+                <img src="./Imagess/msg.svg" alt="">
+                <h1>Email us At</h1>
+                <h6>Kartikeysetia22@gmail.com</h6>
+              </div>
             <div class="card">
               <img src="./Imagess/msg.svg" alt="">
-              <h1>Email us At</h1>
-              <span>KArtikeysetia22@gmail.com</span>
+              <h1>check my work</h1>
+              <h6>linkedin</h6>
             </div>
-          <div class="card">
-            <img src="./Imagess/msg.svg" alt="">
-            <h1>check my work</h1>
-            <span>linkedin</span>
           </div>
+          <form action="">
+            <div class="input-wrap ">
+              <input type="text" placeholder="Your Name *">
+              <input type="eamil" placeholder="Your Email *">
+            </div>
+            <div class="input-wrap-2">
+              <input type="text" placeholder="Your Subject...">
+              <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+            </div>
+            <div class="b-wrapper">
+              <button class="b ">Send Message</button>
+            </div>
+          </form>
         </div>
-        <div class="input-wrap ">
-          <input type="text" placeholder="Your Name">
-          <input type="text" placeholder="Your Name">
+        <footer>
+          <img class="footer-logo" src="./Imagess/logo-2.svg" alt="">
+          <div class="footer-socials">
+              <a href="#"><img src="./Imagess/website.svg" alt=""></a>
+              <a href="https://www.facebook.com/codersgyan"><img src="./Imagess/facebook.svg" alt=""></a>
+              <a href="https://twitter.com/CoderGyan"> <img src="./Imagess/twitter.svg" alt=""></a>
+              <a href="#"> <img src="./Imagess/pintrest.svg" alt=""></a>
+              <a href="https://www.instagram.com/codersgyan/"> <img src="./Imagess/instagram.svg" alt=""></a>
+          </div>
+          <div class="copyright">
+              Copyright 2020 © Coder's Gyan
+          </div>
+      </footer>
+  </div>
+  
+      </section>
 
-
-        </div>
-      </div>
-      
-
-    </section>
+    </div>
     <script
       type="text/javascript"
       src="//code.jquery.com/jquery-1.11.0.min.js"
