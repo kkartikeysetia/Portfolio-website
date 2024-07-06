@@ -9,7 +9,7 @@
 }
 
 .b {
-  padding: 0.8rem 3rem;
+  padding: 1.3rem 2.5rem;
   font-size: 1rem;
   font-weight: bold;
   border: 2px solid transparent;
@@ -19,6 +19,8 @@
   color: black;
   text-transform: uppercase;
   transition: all 0.3s ease;
+  width: 15.9rem;
+  height: 4rem;
 }
 .b:hover {
   border-color: aqua;
