@@ -16,3 +16,15 @@ $(document).ready(function () {
     mobileNav.classList.remove("open");
   });
 });
+/* will add this
+Testimonials 
+Recommendations: "Endorsements from professors and mentors highlighting my skills and character."
+
+
+Responsive Design: 
+"My site is optimized for all devices, ensuring a seamless experience."
+
+Additional Media :
+Video Introductions: "Watch a brief video introduction to learn more about me and my work."
+Gallery: "Browse through images of my projects, events, and achievements."
+*/
