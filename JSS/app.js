@@ -16,7 +16,7 @@ $(document).ready(function () {
     mobileNav.classList.remove("open");
   });
 });
-/* will add this
+/* will add this afterwards
 Testimonials 
 Recommendations: "Endorsements from professors and mentors highlighting my skills and character."
 
